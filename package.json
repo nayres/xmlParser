@@ -1,0 +1,23 @@
+{
+  "name": "xmlparser",
+  "version": "1.0.0",
+  "description": "\"parse xml\"",
+  "main": "index.js",
+  "author": "Nick Ayres <ayres.nickolas@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "jasmine": "^3.3.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "test": "jasmine spec/*.spec.js"
+  }
+}
